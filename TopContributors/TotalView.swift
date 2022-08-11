@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TotalView.swift
 //  TopContributors
 //
 //  Created by Oscar Cristaldo on 2022-08-10.
@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TotalView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Total")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TotalView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TotalView()
     }
 }
